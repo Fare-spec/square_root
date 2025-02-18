@@ -8,7 +8,6 @@ def square_root(number: int, iteration: int):
         elif i**2>number and (i-1)**2<number:
             if i**2 -number < (i-1)**2-number:
                 digit = i
-                print(digit)
                 for _ in range(iteration):
                     a = number - digit**2
                     b = digit*2
